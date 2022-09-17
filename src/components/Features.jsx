@@ -15,13 +15,15 @@ const Features = () => {
     <div className={`${styles.section} ${styles.bgPrimary} banner03`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
-          <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Technologies</h1>
-          <p className={`${styles.pText} ${styles.whiteText}`}>ProNef has been developed using a cross-platform technology, React Native.</p>
+          <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Explore different styles</h1>
+          <p className={`${styles.pText} ${styles.whiteText}`}>You can choose from a range of familiar art styles, from ornate baroque paintings to futuristic synthwave landscapes and everything in between</p>
         </div>
 
         <div className={styles.flexWrap}>
-          <FeatureCard iconUrl={assets.react} iconText="React Native" />
-          <FeatureCard iconUrl={assets.javascript} iconText="JavaScript" />
+          <FeatureCard iconUrl={assets.animation} iconText="Animation" />
+          <FeatureCard iconUrl={assets.authentic} iconText="Authentic" />
+          <FeatureCard iconUrl={assets.cinematic} iconText="Cinematic" />
+          <FeatureCard iconUrl={assets.steamPunk} iconText="Steampunk" />
         </div>
       </div>
     </div>

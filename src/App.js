@@ -7,36 +7,36 @@ const App = () => {
   return (
     <>
       <SectionWrapper 
-        title="You own store of Nifty NFTs. Start Selling & Growing"
-        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+        title="Create art with AI"
+        description="Enter a prompt and bring your idea to life in seconds"
         showBtn
-        mockupImg={assets.homeHero}
+        mockupImg={assets.distantGalaxy}
         banner="banner"
       />
       <SectionWrapper 
-        title="Smart User Interface Marketplace"
-        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
-        mockupImg={assets.homeCards}
+        title="Turn words into art"
+        description='Simply describe what you want Mango to paint - such as "Elon Musk in space" or "Life under sea" and hit create'
+        mockupImg={assets.elonInSpace}
         reverse
       />
       <Features />
       <SectionWrapper 
-        title="Deployment"
-        description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
-        mockupImg={assets.feature}
+        title="Unleash your creativity"
+        description="Get creative with your prompts: poems, song lyrics, movie characters, star signs, monuments or some unique word combinations"
+        mockupImg={assets.astroHorse}
         reverse
       />
       <SectionWrapper 
-        title="Creative way to showcase the store"
-        description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT."
-        mockupImg={assets.mockup}
+        title="Showcase your art"
+        description="Once you have a unique, original artwork you are happy with, share it on social media or use it as your lockscreen to impress your friends"
+        mockupImg={assets.dessertStars}
         banner="banner02"
       />
       <Download />
 
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {" "}
-        <span className="bold">JavaScript Mastery</span>
+        <p className={`${styles.pText} ${styles.whiteText}`}>Mango AI {" "}
+        <span className="bold">Art Generation</span>
         </p>
       </div>
     </>
