@@ -15,7 +15,7 @@ const App = () => {
       />
       <SectionWrapper 
         title="Turn words into art"
-        description='Simply describe what you want Mango to paint - such as "Elon Musk in space" or "Life under sea" and hit create'
+        description='Simply describe what you want to paint - such as "Elon Musk in space" or "Life under sea" and hit create'
         mockupImg={assets.elonInSpace}
         reverse
       />
